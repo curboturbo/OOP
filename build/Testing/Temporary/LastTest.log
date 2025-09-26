@@ -1,0 +1,32 @@
+Start testing: Sep 26 12:07 UTC
+----------------------------------------------------------
+1/1 Testing: ChTests
+1/1 Test: ChTests
+Command: "/workspaces/OOP_labs/build/test_ch"
+Directory: /workspaces/OOP_labs/build
+"ChTests" start time: Sep 26 12:07 UTC
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from ChTest
+[ RUN      ] ChTest.ValidParentheses
+[       OK ] ChTest.ValidParentheses (0 ms)
+[ RUN      ] ChTest.InvalidParentheses
+[       OK ] ChTest.InvalidParentheses (0 ms)
+[ RUN      ] ChTest.MixedInput
+[       OK ] ChTest.MixedInput (0 ms)
+[----------] 3 tests from ChTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"ChTests" end time: Sep 26 12:07 UTC
+"ChTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 26 12:07 UTC

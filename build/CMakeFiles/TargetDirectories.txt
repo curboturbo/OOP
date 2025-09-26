@@ -1,0 +1,4 @@
+/workspaces/OOP_labs/build/CMakeFiles/test_ch.dir
+/workspaces/OOP_labs/build/CMakeFiles/test.dir
+/workspaces/OOP_labs/build/CMakeFiles/edit_cache.dir
+/workspaces/OOP_labs/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,19 @@
+{
+  "name": "C++ GCC 14 with CMake and GTest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",        // Для IntelliSense и отладки C++
+        "ms-vscode.cmake-tools",     // Интеграция с CMake
+        "twxs.cmake",                // Подсветка синтаксиса CMake
+        "matepek.vscode-catch2-test-adapter"  // Опционально: для запуска тестов GTest в VS Code Test Explorer
+      ]
+    }
+  },
+  "postCreateCommand": "mkdir -p build && cd build && cmake ..",
+  "remoteUser": "root"  // Или укажите другого пользователя, если нужно
+}
